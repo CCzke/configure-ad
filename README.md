@@ -32,15 +32,19 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![IMG_1315](https://github.com/CCzke/configure-ad/assets/146891429/1989c9c3-9093-4c7e-b868-357a81856fe9)
+
+
 </p>
 <p>
-The Domains Controller VM was created then the client VM made sure the client network was in the domain vnet and changed the NIC ip configuration to static.
+The Domains Controller VM was created then the client VM made sure the client network was in the domain vnet and changed the NIC ip configuration to static, in this image i was in the domains desktop which only has the server manager.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>  
+![IMG_1317](https://github.com/CCzke/configure-ad/assets/146891429/2fd06c56-a358-4014-a541-64a058ef5ba0)
+
 </p>
 <p>
 With the AD running, I went to Active Directory users and computers to create some organizational units and then created a user for a specific unit and made it an Admin.
@@ -48,7 +52,12 @@ With the AD running, I went to Active Directory users and computers to create so
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![IMG_1318](https://github.com/CCzke/configure-ad/assets/146891429/e40f07ef-f8a2-4492-a415-84cffc72ad3e)
+
+![IMG_1322](https://github.com/CCzke/configure-ad/assets/146891429/7efaf338-1488-4a47-bbac-e52effe1a92a)
+
+
 </p>
 <p>
 Lastly after setting up remote desktops to all domain users open Powershell create a new file, paste the contents of a script, and let it run so many accounts are created.
